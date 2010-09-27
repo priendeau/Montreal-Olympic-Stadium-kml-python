@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Montreal-Olympic-Statium-Ovale-polygon-Meshing.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1,1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1,3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Montreal-Olympic-Statium-Ovale-polygon-Meshing</name>
+		<visibility>0</visibility>
+		<description>This is the Olympic stadium when I saw the « Call of Umpire », I decide to generate a Kmz hand drawed to shape-back with MeshPy and being shapen with demonstration of Kmz to earth-distance Python Module... And the result can be displayed with Mayavi1 or Mayavi2. I only shaped the Ovale because we will re-use it later with a laddered PySlic to recognize the stadium directly with google engine and searching on the web extracting photos from this stadium... And upcomming in year 2 or 3 or even during your stages I will ask to extract the approximated time of the snapshot with radiance estimation with some tools learned during this Course... 
+
+The actual work I&apos;m asking is to search on the Net, for valid baseball rules for plane painting rules or any rules concerning the creation of a Baseball certified field, Our first approch is to map a valid terrain within a gived range and I will demontrate how to find similar map arround the world... Assuming Next big live Camera can shot everything, asking to the engine having the coordinate to snapshoot every Throwing ball sequence being at least cibled, extrating all coordinate and image from it... 
+
+Warning, this Course is not a spy-mission and all people concerned with personal or any ambiguities with photo-detection and Irrandiance scanning technologies will please asked to leave the course... I Insist to invoke the goal of this course is a method for Tri-dimensional mapping based on information left in actual map. It mainly used the conceptual uses of Sun exposition and morphing result of know object shape versus it possible deformation created by the sun shadows leaved by the sun...</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-73,55219149488352,45,55883093095054,0 -73,55226180723315,45,55873694129472,0 -73,55228787730199,45,55863754976502,0 -73,55228788860202,45,55855094687665,0 -73,55227001249418,45,55847591637446,0 -73,55227579791331,45,55839444645969,0 -73,55277094302301,45,55832830019815,0 -73,55278429227944,45,55827269606312,0 -73,55281071047725,45,55813173389388,0 -73,55280694159316,45,55798920028036,0 -73,55279995208073,45,55785010962094,0 -73,5527424163939,45,55771231512258,0 -73,55270196920512,45,55757501892241,0 -73,55261601369533,45,5574561026353,0 -73,55252748582826,45,55732852874496,0 -73,55239010893347,45,55722267845714,0 -73,5522494302716,45,55711995178682,0 -73,55206797231867,45,55705234200401,0 -73,55195605174558,45,5570047465566,0 -73,55182185550848,45,55696905348989,0 -73,55169035957329,45,55698693249253,0 -73,55155364921254,45,5570025535535,0 -73,55141921549344,45,55702681845135,0 -73,55132573067624,45,55710296990911,0 -73,55123785844887,45,55716935213881,0 -73,55110138346853,45,55727563096253,0 -73,55103404200592,45,55741168217119,0 -73,55096498580775,45,55754198923601,0 -73,55095066119695,45,55768256317849,0 -73,5509355168051,45,55782024180061,0 -73,55096426203272,45,55796061045552,0 -73,5509821108937,45,55809344463652,0 -73,55103896820418,45,55822663069846,0 -73,5511092037806,45,55836074846195,0 -73,55120000219432,45,55849165770139,0 -73,55131033091605,45,55861650749154,0 -73,55145156734822,45,55871558621402,0 -73,55161230633199,45,55882360916367,0 -73,55210451053129,45,55889754575039,0 -73,55219149488352,45,55883093095054,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
